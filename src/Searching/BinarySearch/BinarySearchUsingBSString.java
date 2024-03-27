@@ -30,7 +30,7 @@ class Sorter{
 class Main2 {
 
     public static void main(String[] args) {
-        String[] names = new String[]{"Mukund", "Krishna", "Nikhil", "venom", "Ayushi"};
+        String[] names = new String[]{"Mukund", "Krishna","Raghav", "Nikhil", "venom", "Ayushi"};
         System.out.println("Arrays.toString(names) = " + Arrays.toString(names));
         Sorter sorter = new Sorter();
         sorter.sort(names);
